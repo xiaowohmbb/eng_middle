@@ -10,3 +10,4 @@ source virtural_env/bin/activate
 pip3 install pymysql
 pip3 install configparser
 pip3 install retrying
+#deactivate
