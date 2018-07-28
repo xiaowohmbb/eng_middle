@@ -1,0 +1,19 @@
+### 目的
+写个python程序，在一个mysql实例的多个库中执行SQL
+
+
+### 使用方法
+1. 准备数据,创建数据库，表，两条数据
+修改prepare_data.sh中的mysql信息为测试mysql信息
+sh prepare_data.sh
+
+2. 修改config.ini
+修改mysql信息为测试mysql信息
+
+3. 安装python3依赖，需要自行安装python3才可以执行
+sh install.sh
+
+4. 运行
+sh start.sh
+
+
