@@ -2,10 +2,10 @@
 mysqlHost=localhost
 mysqlPort=3306
 mysqlUser=root
-mysqlPasswd=root
+mysqlPasswd=123456
 mysqlDatabase=test
 
-mysqlCmd=mysql -h ${mysqlHost} -P ${mysqlPort} -D ${mysqlDatabase} -u ${mysqlUser} -p ${mysqlPasswd}
+mysqlCmd="mysql -h${mysqlHost} -P${mysqlPort} -D${mysqlDatabase} -u${mysqlUser} -p${mysqlPasswd}"
 
 $mysqlCmd -e "CREATE DATABASE IF NOT EXISTS `test` /*!40100 DEFAULT CHARACTER SET utf8 */";
 $mysqlCmd -e "CREATE DATABASE IF NOT EXISTS `test1` /*!40100 DEFAULT CHARACTER SET utf8 */";
